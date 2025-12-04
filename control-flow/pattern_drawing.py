@@ -8,5 +8,5 @@ while row < size:
     for _ in range(size):
         print("*", end="")
     print()  # Move to next line after each row
-    row += 1
+    row += 2
     
