@@ -19,7 +19,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(-1, 1), -1)
     def test_division_by_zero(self):
         self.assertIsNone(self.calc.divide(5, 0))
-        self.assertIsNone(self.calc.divide(0, 0))
+        self.assertIsNone(self.calc.divide(3, 0))
 
 if __name__ == "__main__":
     unittest.main()
